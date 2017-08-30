@@ -11,7 +11,7 @@ function getTriangleArea(a, h) {
 
 function randomNumber() {
 
-    return (Math.random()*10);
+    return Math.floor(Math.random() * 10) + 1;
 };
 
 var a = randomNumber();
