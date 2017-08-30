@@ -14,7 +14,8 @@ function randomNumber() {
     return (Math.random()*10);
 };
 
-var x = randomNumber();
+var a = randomNumber();
+var h = randomNumber();
 
 console.log( getTriangleArea(6, 10) );
-console.log( getTriangleArea(x, x) );
+console.log( getTriangleArea(a, h) );
