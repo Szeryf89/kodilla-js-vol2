@@ -98,9 +98,19 @@ var star = '';
 //Module 9.4
 
 
-var button = document.getElementsByTagName('button');
+var button = document.getElementsByClassName('button');
     for (var i = 0; i < button.length; i++) {
         var text = button[i].innerText;
     alert(text);
     }
 
+//Module 9.5
+
+var list = document.getElementById('list');
+var add = document.getElementById('addElem');
+
+add.addEventListener('click', function(){
+	var table = document.getElementsByTagName('li');
+	var item = 'item ' + table.length;
+	list.innerHTML += '<li>' + item + '</li>';
+})
