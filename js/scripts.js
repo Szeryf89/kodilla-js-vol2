@@ -94,10 +94,13 @@ var star = '';
     console.log(drawTree(2));
     console.log(drawTree(5));
 
+
 //Module 9.4
 
-var button = document.getElementsByClassName("button");
+
+var button = document.getElementsByTagName('button');
     for (var i = 0; i < button.length; i++) {
         var text = button[i].innerText;
     alert(text);
     }
+
