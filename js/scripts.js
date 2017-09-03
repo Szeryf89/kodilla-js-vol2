@@ -95,7 +95,7 @@ var star = '';
     console.log(drawTree(5));
 
 
-//Module 9.4
+//Module 9.5
 
 
 var button = document.getElementsByClassName('button');
@@ -104,7 +104,7 @@ var button = document.getElementsByClassName('button');
     alert(text);
     }
 
-//Module 9.5
+//Module 9.6
 
 var list = document.getElementById('list');
 var add = document.getElementById('addElem');
