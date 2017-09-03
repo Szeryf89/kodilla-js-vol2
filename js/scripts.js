@@ -60,3 +60,45 @@ console.log(textCharsAfter.length/2)
 var partOfText = textCharsAfter.length/2;
 
 console.log(textCharsAfter.slice(0, 72));
+
+//Module 9.4
+//zadanie wykonane dla document.write
+
+for (i=0;i<=4;i++)
+    {
+    for(j=0; j<=i; j++)
+    {
+    document.write("*");
+    }
+    document.write("<br>");
+    }
+
+//zadanie wykonane w console.log
+
+function drawTree(value) {
+
+var star = '';
+    for (i=0;i<=value;i++) {
+        for(j=0; j<=i; j++)
+    {
+    star += '*';
+    }
+
+    console.log(star);
+
+    star = '';
+
+    }
+}
+    console.log(drawTree(1));
+    console.log(drawTree(2));
+    console.log(drawTree(3));
+    console.log(drawTree(4));
+
+//Module 9.4
+
+var button = document.getElementsByClassName("button");
+    for (var i = 0; i < button.length; i++) {
+        var text = button[i].innerText;
+    alert(text);
+    }
