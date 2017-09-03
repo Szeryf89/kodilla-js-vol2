@@ -79,7 +79,7 @@ function drawTree(value) {
 
 var star = '';
     for (i=0;i<=value;i++) {
-        for(j=0; j<=i; j++)
+        for(j=0; j<=(i -1); j++)
     {
     star += '*';
     }
@@ -92,8 +92,7 @@ var star = '';
 }
     console.log(drawTree(1));
     console.log(drawTree(2));
-    console.log(drawTree(3));
-    console.log(drawTree(4));
+    console.log(drawTree(5));
 
 //Module 9.4
 
